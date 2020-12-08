@@ -2,6 +2,7 @@
 Archaio is an application used for generating test files which is used to test
 the capacity of a USB drive. Archaio will generate `.aio` file which is
 essentially a text file containing millions of `1`.
+And the file generated are NOT dummy file since it actually has data in it.
 
 # How does it work?
 The integer `1` occupy 1 byte in disk space, Archaio will write millions of `1`
