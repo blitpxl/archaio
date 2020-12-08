@@ -171,6 +171,7 @@ class MainWindow(QMainWindow):  # Main Window Class
                 size = self.customsizewindow.customSize.text() + "KB"
             else:
                 threshold = int(20480000)
+                size = "20GB"
 
             sys.stdout = open(self.selectedDirectory.text() + '/Archaio' + size + 'File.aio', 'w+')
             tl_start = time.perf_counter()
