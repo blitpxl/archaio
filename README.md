@@ -32,7 +32,9 @@ Peak Maximum Speed: 251 Mb/s
 |500MB|5.37s|
 |1GB|10.6s|
 |5GB|53.4s|
-|10GB|105.2s
+|10GB|105.2s|
+|20GB|266.2s|
+
 `NOTE: The performance will vary depending on the hardware
 you are running on. It can be also limited by the USB drive's bandwidth
 or its maximum Transfer Speed.`
